@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7461A117216F59830052A323 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461A116216F59830052A323 /* AppDelegate.m */; };
+		7461A11A216F59830052A323 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461A119216F59830052A323 /* ViewController.m */; };
+		7461A11D216F59830052A323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7461A11B216F59830052A323 /* Main.storyboard */; };
+		7461A11F216F59850052A323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7461A11E216F59850052A323 /* Assets.xcassets */; };
+		7461A122216F59850052A323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7461A120216F59850052A323 /* LaunchScreen.storyboard */; };
+		7461A125216F59850052A323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461A124216F59850052A323 /* main.m */; };
+		7461A12D216F59FF0052A323 /* YASInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461A12C216F59FF0052A323 /* YASInputCell.m */; };
+		7461A13021703B040052A323 /* UIView+FindFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461A12F21703B040052A323 /* UIView+FindFirstResponder.m */; };
+		7461A13321703B7E0052A323 /* UIView+FindAttachedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461A13221703B7E0052A323 /* UIView+FindAttachedCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7461A112216F59830052A323 /* YASKeyboardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YASKeyboardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7461A115216F59830052A323 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7461A116216F59830052A323 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7461A118216F59830052A323 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7461A119216F59830052A323 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7461A11C216F59830052A323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7461A11E216F59850052A323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7461A121216F59850052A323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7461A123216F59850052A323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7461A124216F59850052A323 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7461A12B216F59FF0052A323 /* YASInputCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YASInputCell.h; sourceTree = "<group>"; };
+		7461A12C216F59FF0052A323 /* YASInputCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YASInputCell.m; sourceTree = "<group>"; };
+		7461A12E21703B040052A323 /* UIView+FindFirstResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FindFirstResponder.h"; sourceTree = "<group>"; };
+		7461A12F21703B040052A323 /* UIView+FindFirstResponder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindFirstResponder.m"; sourceTree = "<group>"; };
+		7461A13121703B7E0052A323 /* UIView+FindAttachedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FindAttachedCell.h"; sourceTree = "<group>"; };
+		7461A13221703B7E0052A323 /* UIView+FindAttachedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindAttachedCell.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7461A10F216F59830052A323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7461A109216F59830052A323 = {
+			isa = PBXGroup;
+			children = (
+				7461A114216F59830052A323 /* YASKeyboardAnimation */,
+				7461A113216F59830052A323 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7461A113216F59830052A323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7461A112216F59830052A323 /* YASKeyboardAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7461A114216F59830052A323 /* YASKeyboardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7461A115216F59830052A323 /* AppDelegate.h */,
+				7461A116216F59830052A323 /* AppDelegate.m */,
+				7461A118216F59830052A323 /* ViewController.h */,
+				7461A119216F59830052A323 /* ViewController.m */,
+				7461A11B216F59830052A323 /* Main.storyboard */,
+				7461A11E216F59850052A323 /* Assets.xcassets */,
+				7461A120216F59850052A323 /* LaunchScreen.storyboard */,
+				7461A123216F59850052A323 /* Info.plist */,
+				7461A124216F59850052A323 /* main.m */,
+				7461A12B216F59FF0052A323 /* YASInputCell.h */,
+				7461A12C216F59FF0052A323 /* YASInputCell.m */,
+				7461A12E21703B040052A323 /* UIView+FindFirstResponder.h */,
+				7461A12F21703B040052A323 /* UIView+FindFirstResponder.m */,
+				7461A13121703B7E0052A323 /* UIView+FindAttachedCell.h */,
+				7461A13221703B7E0052A323 /* UIView+FindAttachedCell.m */,
+			);
+			path = YASKeyboardAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7461A111216F59830052A323 /* YASKeyboardAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7461A128216F59850052A323 /* Build configuration list for PBXNativeTarget "YASKeyboardAnimation" */;
+			buildPhases = (
+				7461A10E216F59830052A323 /* Sources */,
+				7461A10F216F59830052A323 /* Frameworks */,
+				7461A110216F59830052A323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YASKeyboardAnimation;
+			productName = YASKeyboardAnimation;
+			productReference = 7461A112216F59830052A323 /* YASKeyboardAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7461A10A216F59830052A323 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = yasic;
+				TargetAttributes = {
+					7461A111216F59830052A323 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 7461A10D216F59830052A323 /* Build configuration list for PBXProject "YASKeyboardAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7461A109216F59830052A323;
+			productRefGroup = 7461A113216F59830052A323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7461A111216F59830052A323 /* YASKeyboardAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7461A110216F59830052A323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7461A122216F59850052A323 /* LaunchScreen.storyboard in Resources */,
+				7461A11F216F59850052A323 /* Assets.xcassets in Resources */,
+				7461A11D216F59830052A323 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7461A10E216F59830052A323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7461A11A216F59830052A323 /* ViewController.m in Sources */,
+				7461A13321703B7E0052A323 /* UIView+FindAttachedCell.m in Sources */,
+				7461A125216F59850052A323 /* main.m in Sources */,
+				7461A12D216F59FF0052A323 /* YASInputCell.m in Sources */,
+				7461A117216F59830052A323 /* AppDelegate.m in Sources */,
+				7461A13021703B040052A323 /* UIView+FindFirstResponder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7461A11B216F59830052A323 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7461A11C216F59830052A323 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7461A120216F59850052A323 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7461A121216F59850052A323 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7461A126216F59850052A323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7461A127216F59850052A323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7461A129216F59850052A323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJYQWG36VA;
+				INFOPLIST_FILE = YASKeyboardAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = developer.technology.YASKeyboardAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7461A12A216F59850052A323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJYQWG36VA;
+				INFOPLIST_FILE = YASKeyboardAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = developer.technology.YASKeyboardAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7461A10D216F59830052A323 /* Build configuration list for PBXProject "YASKeyboardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7461A126216F59850052A323 /* Debug */,
+				7461A127216F59850052A323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7461A128216F59850052A323 /* Build configuration list for PBXNativeTarget "YASKeyboardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7461A129216F59850052A323 /* Debug */,
+				7461A12A216F59850052A323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7461A10A216F59830052A323 /* Project object */;
+}
